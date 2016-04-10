@@ -1,0 +1,41 @@
+20151011_과제
+<<  ADL    << endl 호출이 어떻게 되는지 과제
+Runtime 라이브러리
+
+	_Ostr.put(_Ostr.widen('\n'));
+	_Ostr.flush();  // endl 무조건 보낸다
+
+
+
+
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+int _tmain(int arge, _TCHAR* argv[])
+{
+	cout << "Hi!, It\'s me. \n";
+	cout << "I\'m learning to program!\n'";
+	return 0;
+}
+
+
+
+cout << "The following items were top sellers";
+cout << "during the month of June:";
+cout << "Computer games";
+cout << "Coffee";
+cout << "Aspirin";
+
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	cout << "Programing is ";
+	cout << "great fun!";
+	return 0;
+}

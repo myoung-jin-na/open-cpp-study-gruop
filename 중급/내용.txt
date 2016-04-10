@@ -1,0 +1,2 @@
+GLSL(OpenGL Shading Language) 셰이딩 언어
+WGL  <-- 래핑
